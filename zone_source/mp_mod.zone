@@ -1,0 +1,6 @@
+>mode,mp
+>type,common
+
+#include "mp_mod.class"
+
+scriptparsetree,scripts/mp/scoreboard_print/scoreboard_print.gsc

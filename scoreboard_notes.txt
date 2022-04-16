@@ -1,0 +1,67 @@
+void CodeGetClientField(<entity>,<name>)
+[MANDATORY] <entity> The entity to search the name in
+[MANDATORY] <name> Unique name to identify the field.
+CATEGORY:
+CLIENT/SERVER: Server
+SUMMARY: Gets the value for a given client field.
+EXAMPLE: val = CodeGetClientField(ent, "my_field")
+
+In ScriptObjectFields.pdf there is a client object with all the fields that we need
+playername
+sessionteam
+kills
+deaths
+assists
+defends
+plants
+defuses
+returns
+captures
+objtime
+headshots
+shotsmissed
+score
+
+entity GetPlayers([team])
+[OPTIONAL] [team] - if specifed, returns lists of players on different teams, in team based game modes. Valid values "allies", "axis", "neutral" & "all"
+CATEGORY:
+CLIENT/SERVER: Server
+SUMMARY: Returns an array of the currently connected players. Used internally to the script call get_players().
+EXAMPLE: players = GetPlayers()
+
+void Print(<text>)
+[MANDATORY] <text> text to be written
+CATEGORY:
+CLIENT/SERVER: Server
+SUMMARY: Development only - write to the console
+EXAMPLE: Print( "Stuff and things!" )
+
+void PrintLn(<text>)
+[MANDATORY] <text> text to be written
+CATEGORY:
+CLIENT/SERVER: Server
+SUMMARY: Development only - write line to the console
+EXAMPLE: PrintLn( "I could be doing better!" )
+
+
+void IPrintLn(<text>)
+[MANDATORY] <text> text to be written
+CATEGORY:
+CLIENT/SERVER: Server
+SUMMARY: Write line to the screen
+EXAMPLE: IPrintLn( "Where have all the cowboys gone?" )
+
+void IPrintLnBold(<text>)
+[MANDATORY] <text> text to be written
+CATEGORY:
+CLIENT/SERVER: Server
+SUMMARY: write bold line to the screen
+EXAMPLE: IPrintLnBold( "Mitchell!" )
+
+void sprintf(<string>,[args])
+[MANDATORY] <string> The string to translate
+[OPTIONAL] [args] zero or more arguments
+CATEGORY: Utility
+CLIENT/SERVER: Both
+SUMMARY: Replaces field specifiers in a string with values passed in, returns result string format specifiers take the form of {[n]} in the source string where [n] indicates which value to print, e.g. 0 is the first user arg
+EXAMPLE: sprintf("{0} is the first string","first")

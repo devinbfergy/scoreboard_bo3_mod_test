@@ -1,0 +1,31 @@
+version,3421953,593
+ignore_missing_shipped,core_pre_gfx
+ignore_missing_shipped,core_patch
+ignore_missing_shipped,core_gfx
+ignore_missing_shipped,core_post_gfx
+ignore_missing_shipped,core_ui
+ignore_missing_shipped,core_common
+ignore_missing_shipped,mp_common
+ignore_missing_shipped,mp_patch
+scriptparsetree,scripts/mp/scoreboard_print/scoreboard_print.gsc
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\mods\mp_scoreboard\scripts\mp\scoreboard_print\scoreboard_print.gsc,1650138884,
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\scripts\shared\shared.gsh,1650131351,
+texturecombo,mp_mod
+assetlist,mp_mod
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\raw\gamedata\playeranim\playeranimtypes.txt,1650131333,
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\mods\mp_scoreboard\zone_source\mp_mod.zone,1650136433,161d0e69,b6d3451c,cc76b4aa,50df8e83
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\zone_source\mp_mod.class,1650130916,
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\zone_source\mod_default.class,1650131454,
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\zone_source\default.class,1650131361,
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\share\zone_source\base_patch.zpkg,1650131359,5a76b7f7,40123946,eb5bedee,b0ac8d77
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\zone_source\all\assetlist\core_pre_gfx.csv,1650131355,9a291896,f3713a9b,75a0b66e,703a40af
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\zone_source\all\assetlist\core_patch.csv,1650131355,414521c8,b00c4bd2,1cb776ba,dd6e2742
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\zone_source\all\assetlist\core_gfx.csv,1650131469,eb35b869,6f0759a0,375b27d8,7e4abcbc
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\zone_source\all\assetlist\core_post_gfx.csv,1650131132,c5b160fe,8def529b,2bc851dc,de320c91
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\zone_source\all\assetlist\core_ui.csv,1650131355,6eac37ef,af745f35,9f02acd6,5ef64937
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\zone_source\all\assetlist\core_common.csv,1650130457,019dcec6,25201477,4f369f35,6e14d2d0
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\zone_source\all\assetlist\mp_common.csv,1650130457,6a892600,39836839,512bc197,0da8ecda
+	file,D:\SteamLibrary\steamapps\common\Call of Duty Black Ops III\zone_source\all\assetlist\mp_patch.csv,1650131132,b0d4b8ed,251c9cb4,b53b9745,f688f915
+	spawn,expect,core_all
+	spawn,expect,mp_common_all
+errorcount,0
