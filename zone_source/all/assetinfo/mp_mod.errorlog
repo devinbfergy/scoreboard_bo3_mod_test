@@ -1,0 +1,7 @@
+return 2000000
+^1ERROR: Lua not supported
+  rawfile:util/t7overcharged.lua
+    csv:zone_source/mp_mod.zone
+^1ERROR: Lua not supported
+  rawfile:util/t7overchargedutil.lua
+    csv:zone_source/mp_mod.zone
