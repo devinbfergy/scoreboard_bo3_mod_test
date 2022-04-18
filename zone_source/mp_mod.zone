@@ -4,3 +4,5 @@
 #include "mp_mod.class"
 
 scriptparsetree,scripts/mp/scoreboard_print/scoreboard_print.gsc
+rawfile,ui/util/T7Overcharged.lua
+rawfile,ui/util/T7OverchargedUtil.lua
